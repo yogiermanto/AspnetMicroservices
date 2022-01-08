@@ -1,6 +1,8 @@
 ﻿using Dapper;
 using Discount.API.Entities;
+using Microsoft.Extensions.Configuration;
 using Npgsql;
+using System.Threading.Tasks;
 
 namespace Discount.API.Repositories
 {

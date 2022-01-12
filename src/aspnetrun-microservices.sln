@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31829.152
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4A55524D-66DB-4DB0-B87E-B77512667A21}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{3FFA2C1C-6E48-4C23-BB59-DFB7B3A8B86C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{26BEC76E-9F61-4206-9F40-40423E60F364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{6F2A1BBF-9F96-4412-A73D-421B3D894105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{B9AF449D-4A0D-4DE1-BCA1-FC6D9BBFBAA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{26BEC76E-9F61-4206-9F40-40423E60F364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26BEC76E-9F61-4206-9F40-40423E60F364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26BEC76E-9F61-4206-9F40-40423E60F364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AF449D-4A0D-4DE1-BCA1-FC6D9BBFBAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AF449D-4A0D-4DE1-BCA1-FC6D9BBFBAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AF449D-4A0D-4DE1-BCA1-FC6D9BBFBAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AF449D-4A0D-4DE1-BCA1-FC6D9BBFBAA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{DD7D25DF-909C-455E-A482-A0BDDBD2A1A3} = {4A55524D-66DB-4DB0-B87E-B77512667A21}
 		{3FFA2C1C-6E48-4C23-BB59-DFB7B3A8B86C} = {DD7D25DF-909C-455E-A482-A0BDDBD2A1A3}
 		{26BEC76E-9F61-4206-9F40-40423E60F364} = {DD7D25DF-909C-455E-A482-A0BDDBD2A1A3}
+		{6F2A1BBF-9F96-4412-A73D-421B3D894105} = {4A55524D-66DB-4DB0-B87E-B77512667A21}
+		{B9AF449D-4A0D-4DE1-BCA1-FC6D9BBFBAA9} = {6F2A1BBF-9F96-4412-A73D-421B3D894105}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F3FDD0F-6D22-47F2-9BFD-4EDD151831A2}
